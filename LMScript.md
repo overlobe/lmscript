@@ -64,7 +64,11 @@ This document defines a set of executable commands for Language Models (LLMs). W
 ## Attribution
 
 When using or adapting this library, please credit:
+
 Author: @overlobe
+
 Project: LMScript
+
 Version: 1.0.0
+
 License: Creative Commons Attribution 4.0 International (CC-BY 4.0)
