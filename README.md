@@ -4,6 +4,8 @@
 
 LMScript is a library of shorthand commands designed to enhance and automate various aspects of writing when using Language Models (LLMs). This project aims to streamline the writing process, improve output quality, and provide users with powerful tools to shape LLM responses according to their specific needs.
 
+More detail on the ideas behind this can be found at https://medium.com/design-futures/bootstrapping-a-writing-language-1fe185dfdd30
+
 ## Objectives
 
 1. Automate common writing tasks and prompts
