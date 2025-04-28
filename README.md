@@ -49,7 +49,7 @@ For detailed information on each command and its parameters, please refer to the
    !context depth:5 focus:"historical"
    ```
 
-4. **Continuous Usage**: The commands will remain available throughout your interaction with the LLM, allowing you to invoke them at any point in your conversation.
+4. **Continuous Usage**: The commands will remain available for the duration of the context window they were invoked within. Depending on how the llm and it's associated service are configured, whis moght be for the duration of a thread, or throughout all your interactions with the LLM. If you like using this, and your LLM platform affords it, then it can be helpful to add lmscript to your 'system prompt' allowing you to invoke !commands at any point in your conversation. (well, theroretically, at least)
 
 ### General Usage
 
@@ -95,17 +95,17 @@ Please ensure that your contributions align with the project's objectives and ma
 
 ## Support
 
-If you encounter any issues or have questions about using LMScript, please open an issue on the GitHub repository. We'll do our best to assist you and improve the library based on your feedback.
+If you encounter any issues or have questions about using LMScript, please open an issue on the GitHub repository. We'll do our best to assist you and improve the library based on your feedback. No promises though. When I first wrote this it was more exciting than it feels now I read it 9 months later: it's a fast phenomena and this is intended to be an artwork first and product second.
 
 ## Version and Attribution
 
-Current Version: 1.0.0
+Current Version: 1.0.1
 Author: @overlobe
 
 When using or adapting this library, please credit:
 Author: @overlobe
 Project: LMScript
-Version: 1.0.0
+Version: 1.0.1
 License: Creative Commons Attribution 4.0 International (CC-BY 4.0)
 
 Happy writing with LMScript!
